@@ -1,4 +1,4 @@
-.header {
+header {
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -10,13 +10,46 @@
     padding: 15px 20px;
 }
 
-.header li {
+header li {
     float: left;
 }
 
-.header ul {
+.wrap-skill li {
+    float: left;
+}
+
+.wrap-site li {
+    float: left;
+}
+
+ul {
     list-style: none;
     margin: 0;
     overflow: hidden;
     padding: 0;
+}
+
+.fl {
+    display: flex;
+}
+
+.wrap-greeting {
+    justify-content: space-between;
+    margin: 2rem auto 0;
+}
+
+.greeting-title {
+    font-size: 50px;
+}
+
+.half {
+    flex: 1;
+    padding: 10px;
+}
+
+.experience-card {
+    border: 1px solid hsla(0, 0%, 83%, .397);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px -15px #0003;
+    position: relative;
 }
